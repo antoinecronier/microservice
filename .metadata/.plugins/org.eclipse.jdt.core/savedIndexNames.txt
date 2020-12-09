@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+/home/antoine.cronier/workspace/cours/microservices/.metadata/.plugins/org.eclipse.jdt.core
+2256190775.index
+3432293674.index
+896754859.index
+525107859.index
+3992466353.index
+3822256796.index
+4074087374.index
+3943880180.index
+2309150669.index
+1274536321.index
+2642139398.index
+3870008068.index
+4027769056.index
+597730993.index
+108225441.index
+31709284.index

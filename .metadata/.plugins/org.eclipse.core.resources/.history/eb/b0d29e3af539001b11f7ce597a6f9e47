@@ -1,0 +1,13 @@
+package com.tactfactory.microservice.limitsservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MicroserviceService1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MicroserviceService1Application.class, args);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.tactfactory.microservice.service1.configurations;
+
+public class Configuration {
+
+}

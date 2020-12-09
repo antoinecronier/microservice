@@ -1,0 +1,5 @@
+package com.tactfactory.microservice.service1.controllers;
+
+public class LimitsConfigurationController {
+
+}
