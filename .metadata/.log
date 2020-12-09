@@ -2286,3 +2286,60 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 13:49:51.985
 !MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:07:57.729
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:07:57.731
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:07:57.732
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyexchangeservice false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:07:57.732
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:07:57.737
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:46.232
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:46.233
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:46.234
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyexchangeservice false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:46.235
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:46.239
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:51.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:51.626
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:51.627
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyexchangeservice false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:51.627
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 14:10:51.635
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-09 14:14:04.539
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
