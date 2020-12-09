@@ -12,21 +12,20 @@ public class CurrencyConversion {
 	private int port;
 
 	// default constructor
-	public CurrencyConversion()
-	{
+	public CurrencyConversion() {
 	}
 
 	// creating constructor
-	public CurrencyConversion(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity, BigDecimal totalCalculatedAmount, int port)
-	{
-	super();
-	this.id = id;
-	this.from = from;
-	this.to = to;
-	ConversionMultiple = conversionMultiple;
-	this.quantity = quantity;
-	this.totalCalculatedAmount = totalCalculatedAmount;
-	this.port = port;
+	public CurrencyConversion(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
+			BigDecimal totalCalculatedAmount, int port) {
+		super();
+		this.id = id;
+		this.from = from;
+		this.to = to;
+		ConversionMultiple = conversionMultiple;
+		this.quantity = quantity;
+		this.totalCalculatedAmount = totalCalculatedAmount;
+		this.port = port;
 	}
 
 	// creating setters and getters

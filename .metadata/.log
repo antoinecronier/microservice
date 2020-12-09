@@ -2454,3 +2454,120 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2020-12-09 15:48:55.022
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 15:49:08.034
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 15:49:08.036
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 15:49:08.038
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 15:49:08.038
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 15:49:08.044
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:08.326
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:08.328
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:08.334
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:08.334
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:08.343
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:56.248
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:56.250
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:56.251
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:56.251
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:17:56.258
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:30:56.557
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:30:56.560
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:30:56.561
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:30:56.561
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:30:56.570
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:32:07.263
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:32:07.268
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:32:07.269
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:32:07.269
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:32:07.275
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:38:34.987
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:38:34.988
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:38:34.989
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:38:34.989
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:38:34.995
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:42:04.694
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:42:04.697
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:42:04.698
+!MESSAGE buffering callback sts4.classpath.MiYWGFQT microservice-currencyconvertionservice false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:42:04.698
+!MESSAGE executing callback sts4.classpath.MiYWGFQT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 16:42:04.705
+!MESSAGE executing callback sts4.classpath.MiYWGFQT SUCCESS [done]
