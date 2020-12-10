@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.zuul.EnableZuulServer;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableZuulProxy
@@ -14,4 +16,8 @@ public class Microservice2211ZuulApplication {
 		SpringApplication.run(Microservice2211ZuulApplication.class, args);
 	}
 
+	@Bean
+	public ZuulLoggingFilter loggingFilter() {
+		return new ZuulLoggingFilter();
+	}
 }
