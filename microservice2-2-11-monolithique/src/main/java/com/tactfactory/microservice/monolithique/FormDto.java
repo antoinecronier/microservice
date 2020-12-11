@@ -1,4 +1,4 @@
-package com.tactfactory.microservice.frontend;
+package com.tactfactory.microservice.monolithique;
 
 import java.math.BigDecimal;
 
@@ -8,7 +8,6 @@ public class FormDto {
 
 	private String from;
 	private String to;
-	@JsonProperty("quantity")
 	private BigDecimal amount;
 	private BigDecimal totalCalculatedAmount;
 
@@ -36,8 +35,12 @@ public class FormDto {
 		this.amount = amount;
 	}
 
-	public String getTotalCalculatedAmount() {
-		return String.format("Convert %s %s give %s %s", this.amount, this.from, this.totalCalculatedAmount, this.to);
+	public BigDecimal getTotalCalculatedAmount() {
+		return this.totalCalculatedAmount;
+	}
+
+	public void setTotalCalculatedAmount(BigDecimal totalCalculatedAmount) {
+		this.totalCalculatedAmount = totalCalculatedAmount;
 	}
 
 	public FormDto() {
@@ -51,4 +54,10 @@ public class FormDto {
 		this.to = to;
 		this.totalCalculatedAmount = totalCalculatedAmount;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("Convert %s %s give %s %s", this.amount, this.from, this.totalCalculatedAmount, this.to);
+	}
+
 }
