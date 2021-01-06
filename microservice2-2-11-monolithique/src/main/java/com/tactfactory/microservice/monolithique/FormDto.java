@@ -2,8 +2,6 @@ package com.tactfactory.microservice.monolithique;
 
 import java.math.BigDecimal;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class FormDto {
 
 	private String from;

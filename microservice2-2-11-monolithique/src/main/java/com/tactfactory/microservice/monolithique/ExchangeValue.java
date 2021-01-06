@@ -26,7 +26,6 @@ public class ExchangeValue {
 	public ExchangeValue() {
 	}
 
-	// generating constructor using fields
 	public ExchangeValue(Long id, String from, String to, BigDecimal conversionMultiple) {
 		super();
 		this.id = id;
@@ -35,7 +34,6 @@ public class ExchangeValue {
 		this.conversionMultiple = conversionMultiple;
 	}
 
-	// generating getters
 	public Long getId() {
 		return id;
 	}
