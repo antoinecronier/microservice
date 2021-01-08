@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name="netflix-zuul-api-gateway-server")
 public interface CurrencyConvertionServiceProxy {
 
-	@GetMapping("/currency-convertion-service/currency-converter/from/{from}/to/{to}/ quantity/{quantity}")
-	FormDto convertCurrencyFeign(@PathVariable("from") String from, @PathVariable("to") String to, @PathVariable("quantity") BigDecimal quantity);
+    @GetMapping("/currency-conversion-service/currency-converter/from/{from}/to/{to}/quantity/{quantity}")
+    FormDto convertCurrencyFeign(@PathVariable("from") String from, @PathVariable("to") String to, @PathVariable("quantity") BigDecimal quantity);
 }

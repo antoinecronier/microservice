@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name="netflix-zuul-api-gateway-server")
 public interface CurrencyExchangeServiceProxy {
 
-	@GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")
-	CurrencyConversion convertCurrencyFeign(@PathVariable("from") String from, @PathVariable("to") String to);
+    @GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")
+    //@GetMapping("/currency-exchange/from/{from}/to/{to}")
+    CurrencyConversion convertCurrencyFeign(@PathVariable("from") String from, @PathVariable("to") String to);
 }

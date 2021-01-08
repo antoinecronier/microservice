@@ -13,12 +13,12 @@ import brave.sampler.Sampler;
 @EnableDiscoveryClient
 public class Microservice2211CurrencyconversionserviceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Microservice2211CurrencyconversionserviceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Microservice2211CurrencyconversionserviceApplication.class, args);
+    }
 
-	@Bean
-	public Sampler defaultSampler() {
-		return Sampler.ALWAYS_SAMPLE;
-	}
+    @Bean
+    public Sampler defaultSampler() {
+        return Sampler.ALWAYS_SAMPLE;
+    }
 }
