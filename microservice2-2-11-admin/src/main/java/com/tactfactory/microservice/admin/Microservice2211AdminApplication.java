@@ -14,8 +14,8 @@ import de.codecentric.boot.admin.server.config.EnableAdminServer;
  * */
 public class Microservice2211AdminApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Microservice2211AdminApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Microservice2211AdminApplication.class, args);
+    }
 
 }
